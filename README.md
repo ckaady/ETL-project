@@ -18,6 +18,6 @@ To narrow the scope of the project, we removed shelters in Mexico and Canada fro
 
 Once we had all of the transformed CSVs that we needed, we used GenMyModel (https://www.genmymodel.com/) to create our ERD. We established our primary and foreign keys as the state column and made the corresponding connections. We then loaded the ERD to use in pgAdmin4 (https://www.pgadmin.org/download/) and created our schema to load our tables. We then imported our CSVs to the corresponding tables to create our finalized database.
 
-Next Steps
+### Next Steps
 
 Now that we have a full database with merged data, one could draw correlations between the various demographic data and the number of shelters in each state.
